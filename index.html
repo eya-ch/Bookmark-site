@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="images/logo-bookmark.svg" alt="">
+
+        <span>FEATURES</span>
+        <span>PRICING</span>
+        <span>CONTACT<span>
+                <button id="btn">LOGIN</button>
+
+    </div>
+    <div class="section1">
+        <div class="section1-1">
+            <h1>A SIMPLE BOOKMARK MANAGER</h1>
+            <p>A clean and sipmle interface to organize your favourite websites. Open a new browser tab and see your
+                sites load instantly. Try it for free.</p>
+            <button id="chrome">Get it on Chrome</button>
+            <Button>Get it on Firefox</Button>
+        </div>
+        <div class="section1-2">
+            <img src="images/illustration-hero.svg" alt>
+            <div class="bg"></div>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="section2-1">
+            <h2>Features</h2>
+            <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync
+                between your devices so you can access them on the go.</p>
+        </div>
+        <div class="section2-2">
+            <span>Simple Bookmarking</span>
+            <span>Speedy Searching</span>
+            <span>Easy Sharing</span>
+        </div>
+        <hr>
+    </div>
+    <div class="section3">
+        <div class="section3-1">
+            <img src="images/illustration-features-tab-1.svg" alt="">
+            <div class="bg2"></div>
+        </div>
+        <div class="section3-2">
+            <h2>Bookmark in one click</h2>
+            <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control
+                over how you manage your favourite sites.</p>
+            <button id="btn3">More Info</button>
+
+        </div>
+    </div>
+    <div class="section4">
+        <div class="section4-1">
+            <h2>Download the extension</h2>
+            <p>We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to
+                prioritize.</p>
+        </div>
+        <div class="section4-2">
+            <div class="chrome moteur">
+                <img src="images/logo-chrome.svg" alt="">
+                <img src="images/bg-dots.svg" alt="">
+                <button>Add & install Extension</button>
+            </div>
+            <div class="firefox moteur">
+                <img src="images/logo-firefox.svg" alt="">
+                <img src="images/bg-dots.svg" alt="">
+                <button>Add & install Extension</button>
+            </div>
+            <div class="opera moteur ">
+                <img src="images/logo-opera.svg" alt="">
+                <img src="images/bg-dots.svg" alt="">
+                <button>Add & install Extension</button>
+            </div>
+        </div>
+    </div>
+    <div class="section5">
+        <div class="section5-1">
+            <h2>Frequently Asked Questions</h2>
+            <p> Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email
+                us.</p>
+
+        </div>
+        <div class="section5-2">
+            <hr>
+            <div class="part 1">
+                <p>what is Bookmark?</p>
+                <p class="extra">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, repellat. Quisquam eius
+                    veritatis dolore earum deserunt. Repellendus amet, reiciendis illo eaque rem quisquam veniam, saepe
+                    nobis eveniet, ipsum odio alias.</p>
+                <img src="images/icon-arrow.svg" alt=""height="15px >
+
+            </div>
+            <hr>
+            <div class="part 2">
+                <p>How can I request a new browser?</p>
+                <p class="extra">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum odio eos omnis at
+                    veritatis rem, natus ullam ea officiis dicta repellat animi accusamus cumque exercitationem? Quam
+                    beatae reiciendis facere minima!</p>
+                <img src="images/icon-arrow.svg" alt="" height="15px">
+            </div>
+            <hr>
+            <div class="part 3">
+                <p>Is there a mobile app?</p>
+                <p class="extra">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, hic quia dicta eius fuga
+                    aspernatur cum, porro et, voluptates vitae ad sapiente placeat! Cupiditate quia, illo dolore
+                    excepturi omnis eaque.</p>
+                <img src="images/icon-arrow.svg" alt="" height="15px">
+
+            </div>
+            <hr>
+            <div class="part 4">
+                <p>What about other Chromium browsers</p>
+                <img src="images/icon-arrow.svg" alt="" height="15px" >
+            </div>
+            <hr>
+            <button >More Info</button>
+        </div>
+
+    </div>
+    <div class="section6">
+        <p>35.000+ ALREADY JOINED</p>
+        <h3>Stay up-to-date with what we're doing</h3>
+        <div class="contact-us">
+            <input type="text" id="mail">
+            <button id="contactBtn" onclick="validerEmail()">Contact Us</button>
+        </div>
+        <div class="errorMsg">
+            <p>Whoops, make sure it's an email </p>
+        </div>
+    </div>
+    <div class="footer">
+        <div><img src="images/logo-bookmark.svg" alt="" width="160px" height="50px"></div>
+        <div>FEATURES</div>
+        <div>PRICING</div>
+        <div>CONTACT</div>
+        <div class="icons">
+            <img src="images/icon-facebook.svg" alt="mafamechh">
+            <img src="images/icon-twitter.svg" alt="">
+        </div>
+    </div>
+    </div>
+    <script>
+        function validerEmail() {
+            let mail = String(document.querySelector("#mail").value);
+            let msg = document.querySelector('errorMsg');
+            for (let i = 0; i < mail.length; i++) {
+                if (mail.charAt(i) != "@") {
+                    <img src="images">
+                        (document.querySelector("#mail")).style.border = "5px solid red"
+          
+            }
+
+    </script>
+</body>
+
+</html>
